@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Grid container style={{ marginTop: 20 }}>
-        <Grid item style={{ margin: "auto" }}>
+        <Grid item sx={12} style={{ margin: "auto" }}>
           <Card>
             {loading == true ? <LinearProgress /> : ""}
             <CardContent style={{ textAlign: "center" }}>
