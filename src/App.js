@@ -32,7 +32,7 @@ function App() {
           <Card>
             {loading == true ? <LinearProgress /> : ""}
             <CardContent style={{ textAlign: "center" }}>
-              <Typography variant="h5">Memes App</Typography>
+              <Typography variant="h5">Memes App </Typography>
               {image && image != null ? (
                 <CardMedia
                   component="img"
