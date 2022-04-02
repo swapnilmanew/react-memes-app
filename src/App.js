@@ -27,8 +27,8 @@ function App() {
 
   return (
     <>
-      <Grid container style={{ margin: "auto" }}>
-        <Grid item sx={12} style={{ marginTop: "50px" }}>
+      <Grid container style={{ margin: "auto", paddingTop: 50 }}>
+        <Grid item sx={12} style={{ margin: "auto" }}>
           <Typography variant="h5" style={{ textAlign: "center" }}>
             Memes App{" "}
           </Typography>
