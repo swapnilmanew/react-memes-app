@@ -27,19 +27,17 @@ function App() {
 
   return (
     <>
-      <Grid container style={{ marginTop: 20 }}>
+      <Grid container style={{ margin: "auto" }}>
         <Grid item sx={12} style={{ margin: "auto" }}>
+          <Typography variant="h5" style={{ textAlign: "center" }}>
+            Memes App{" "}
+          </Typography>
+
           <Card>
             {loading == true ? <LinearProgress /> : ""}
             <CardContent style={{ textAlign: "center" }}>
-              <Typography variant="h5">Memes App </Typography>
               {image && image != null ? (
-                <CardMedia
-                  component="img"
-                  height="300"
-                  width="90%"
-                  image={image}
-                ></CardMedia>
+                <CardMedia component="img" image={image}></CardMedia>
               ) : (
                 <div style={{ margin: "10px 5px" }}>
                   Meme nahi sapadli re...Button vr click kr...!!
